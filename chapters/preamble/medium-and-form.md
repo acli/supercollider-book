@@ -114,7 +114,7 @@ But to answer this general question, in a typical Luhmannian fashion, he uses a 
 
 A medium cannot take on any form but only those which can be composed by its elements.
 The medium conditions its forms.
-Fater all, form and medium share the same elements.
+Furthermore, form and medium share the same elements.
 The difference consists solely in the loose and rigid coupling of elements.
 How the medium passes the form to its elements depends on the properties of the medium itself.
 The medium opens the possibilities of giving form and it also narrows it down.
@@ -124,8 +124,8 @@ For example, the color of a pixel of an image is technically independent of the 
 Only because of this property can images picture almost anything.
 We can arrange pixels as we desire.
 Money is a medium since payments can be made in almost any denomination and they are independent of the sense and means of other payments.
-Each letter in a programming code is inpdependent of any other letter.
-Of course, similar to natural languages, only a small subset of programming code make sense, i.e. form a valid program that can be compiled, interpreted or executed.
+Each letter in a programming code is independent of any other letter.
+Of course, similar to natural languages, only a small subset of programming code makes sense, i.e. form a valid program that can be compiled, interpreted or executed.
 Interestingly, the medium is very oblivious and the artist can utilize this property of the medium to manipulate the form.
 The low interdependency of the medium's elements opens a space of fiction and simulation---of stories about unicorns.
 
@@ -135,11 +135,11 @@ It might decay or, if it is reproducible, evolve.
 Within forms, this assertive property repeats.
 Sand adjusts to the stone, not the other way around.
 
-According to Luhmann, a form can create a medium, Luhmann refers to a *second-order medium*.
+According to Luhmann, a form can create a medium, which Luhmann refers to as a *second-order medium*.
 Sound is a form of air but tones, which are sound, make up the medium of music.
-We could also say that rhythyms (medium) make up a sound (form/medium) which can make up rhythyms (form).
+We could also say that rhythms (medium) make up a sound (form/medium) which can make up rhythms (form).
 Compare the following three sounds.
-The first one is a rhythym, by increasing the frequency of the rhythym it turns into an infinite tone and by manipulating the amplitude of the tone, we arrive at a rhythym.
+The first one is a rhythm, by increasing the frequency of the rhythm it turns into an infinite tone and by manipulating the amplitude of the tone, we arrive at a rhythm.
 
 ```isc
 {Impulse.ar(5)!2}.play
@@ -166,7 +166,7 @@ ipd.Audio(audio_path)
 ```
 
 In a musical piece, any tone can, in principle, follow or can be combined with any other tone except the form of the music piece "decides" otherwise.
-Importantly, music functions as communication only for those who can recognize (and inform each other about) the difference between medium and form; only those who can hear the uncoupled space within the played music; only those who listen and recognize that, through its tonality, the music makes much more sounds possible than normally expected but it is disciplined by the form.
+Importantly, music functions as communication only for those who can recognize (and inform each other about) the difference between medium and form; only those who can hear the uncoupled space within the played music; only those who listen and recognize that, through its tonality, the music makes much more sounds possible than is normally expected but it is disciplined by the form.
 
 >Art establishes rules of inclusion that serves the difference of medium and form as medium. -- Niklas Luhmann
 
@@ -237,7 +237,7 @@ It does this by exploring the different possibilities of ordering elements withi
 Through art, we can explore new possibilities of the acoustic and optical world and make them available and experiential.
 Thereby we gain more non-obvious possible ways of ordering the world.
 
-Here we should ask how an artwork might achieves this effect?
+Here we should ask how an artwork might achieve this effect?
 Luhmann uses the concept of the *marked* and *unmarked space* introduced by Spencer-Brown's *Laws of Form* {cite}`brown:1969`.
 Looking at the artwork one can see a marked space but also the other side, the unmarked space.
 The unmarked space indicate an infinite amount of possibilities which can not be fixed in place.
@@ -252,7 +252,7 @@ What can occur there must fit, if not the impression of a discord, an error, a d
 A computer program can be seen as a collection of commands or statements of advice.
 Computer scientists, like me, emphasise the humanist perspective that a programming language is an inherently precise and rigid medium of expression.
 Different from natural languages, programming languages are unambiguous.
-Any syntactical error will lead to non-execution (compiled code) or an abrubt termination (interpreted code)---the computer stops making sense of the given advice.
+Any syntactical error will lead to non-execution (compiled code) or an abrupt termination (interpreted code)---the computer stops making sense of the given advice.
 
 From this rigidity and formality, programmers extrapolate the believe that if they can implement something, they really understand it.
 The reasoning goes like the following:
@@ -295,7 +295,7 @@ We can see that if $x$ and $u$ are similar, the computatation stops.
 Since $u \leftarrow r^2$ and $x = 2$ the computation stops when $r$ is close to $\sqrt{2}$.
 
 How is $r$ computed?
-Well, if we substitude all the variables we get
+Well, if we substitute all the variables we get
 
 $$r \leftarrow t / 2 \Rightarrow r \leftarrow (r+m)/2 \Rightarrow r \leftarrow \left(r+\frac{x}{r}\right) \cdot \frac{1}{2}$$
 
@@ -340,7 +340,7 @@ If we look at the starting value for $r$ and all the operations, we can clearly 
 We did a lot of work and thinking to analyse Newton's algorithm.
 In the end we figured out that $r$ approches $\sqrt{2}$. 
 We still don't know how fast $r$ converges towards $\sqrt{2}$.
-We also did not look at possible numerical pitfalls---after all computers are not that good at dealing with the infinite.
+We also did not look at possible numerical pitfalls---after all, computers are not that good at dealing with the infinite.
 It is likely that Newton started with mathematical equations before writing down the statements of advice.
 If we just implement the steps without a proper analysis we do not really understand what is going on and simply looking at the algorithm does not help either.
 
