@@ -68,7 +68,7 @@ The drawback of Tidal on the other hand might be that we have to stick to the ri
 
 ## Combining Pattern
 
-A core feature of *Tidal* is the ease in which one can combine pattern using *pattern matching* -- a technique of *functional programming*.
+A core feature of *Tidal* is the ease in which one can combine pattern using *pattern matching*---a technique of *functional programming*.
 *Tidal* always "trys" to find a way to match pattern even though they seem not really matchable.
 
 For example,
@@ -77,7 +77,7 @@ For example,
 "2 3" + "4 5 6"
 ```
 
-matches the Elements ``2``, ``3`` to ``4``, ``5``, and ``6`` but how?
+matches the Elements ``2`` and ``3`` to ``4``, ``5``, and ``6``. But how?
 There are different possibilities.
 If the *structure* comes from the left, then this would result in ``"6 8"``.
 If the structure comes from the right, then we get ``"6 7 9 "`` and if it comes from both sides (which is the default) we get ``"6 7 8 9"``.
@@ -90,7 +90,7 @@ d1 $ s "drum hh bd" + crush "2 2.2 10 2"
 ```
 
 ``+`` is the same as writing ``|+|``.
-Using ``#`` or ``|+`` will cause the structure coming from the left, resulting in 3 events per cycle.
+Using ``#`` or ``|+`` will cause the structure to come from the left, resulting in 3 events per cycle.
 
 ```haskell
 d1 $ s "drum hh bd" # crush "2 2.2 10 2"
@@ -99,7 +99,7 @@ d1 $ s "drum hh bd" # crush "2 2.2 10 2"
 ## Further Reading
 
 There's much more to explore. 
-For instance, the [mini notation](https://tidalcycles.org/docs/reference/mini_notation) s its own language within the Tidal language. 
+For instance, the [mini notation](https://tidalcycles.org/docs/reference/mini_notation) is its own language within the Tidal language. 
 However, there are other, superior sources out there to study the possibilities of Tidal.
 For more information I recommand to have a look at the official website: [TidalCycle](https://tidalcycles.org/).
 What I aim going to illustrate here is how we can utilize our synth, defined by  [SynthDef](https://doc.sccode.org/Classes/SynthDef.html) in *Tidal*.
